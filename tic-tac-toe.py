@@ -1,3 +1,4 @@
+import sys
 # 1. have a board be displayed everytime
 
 # 2. allow the player pick a spot based on index location
@@ -16,3 +17,8 @@ def display_board():
 
 
 display_board()
+
+
+def end_game():
+    print("The game has ended")
+    sys.exit()
